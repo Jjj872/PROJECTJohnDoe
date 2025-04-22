@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Shrikhand&display=swap');
+
+* {
+    background-color: #011826;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p , h1 , h2{
+    color: #F7FFF2;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Open Sans;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1470px;
+    margin: auto;
+
+}
+
+header img {
+    width: 180px;
+    padding-top: 5px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header ul {
+    display: flex;
+    gap: 35px;
+    padding-top: 5px;
+    list-style-type: none;
+}
+
+.li-red {
+    color: #E7174A;
+}
+
+.li-orange {
+    color: #FF9A16;
+}
+
+.li-contact {
+    color: #F7FFF2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MAIN */
+
+/* FOOTER */
