@@ -3,6 +3,11 @@
 * {
     background-color: #011826;
     font-family: 'Montserrat', sans-serif;
+    margin: auto;
+}
+
+h1 {
+    font-size: 36px;
 }
 
 p , h1 , h2{
@@ -15,6 +20,48 @@ p {
     font-family: Open Sans;
 }
 
+/* MAIN */
+/* SECTION 1 */
+.section1 img {
+    width: 100%;
+    height: 670px;
+    object-fit: cover;    
+}
+
+.section1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 80px;
+    padding-top: 100px;
+    gap: 150px;
+}
+
+.section1 h1 {
+    padding-bottom: 40px;
+}
+
+.section1 p {
+    line-height: 30px;
+}
+
+/* SECTION 2 */
+
+.section2 h1 {
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* HEADER */
 
 header {
@@ -22,35 +69,40 @@ header {
     justify-content: space-between;
     max-width: 1470px;
     margin: auto;
-
+    padding: 15px;
 }
-
 header img {
     width: 180px;
     padding-top: 5px;
 }
-
 header a {
     text-decoration: none;
 }
-
 header ul {
     display: flex;
     gap: 35px;
     padding-top: 5px;
     list-style-type: none;
 }
-
 .li-red {
     color: #E7174A;
 }
-
 .li-orange {
     color: #FF9A16;
 }
-
-.li-contact {
+.li-contact  {
     color: #F7FFF2;
+    background-color: orange;
+    padding: 10px;
+    
+}
+
+.contactezmoi {
+    position: absolute;
+    margin-top: 20px;
+    color: #F7FFF2;
+    background-color: orange;
+    padding: 10px;
 }
 
 
@@ -70,4 +122,29 @@ header ul {
 
 /* MAIN */
 
+main { 
+    max-width: 1440px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* FOOTER */
+
+footer {
+    background-color:#2CC1AA;
+}
+
+footer p {
+    background-color:#2CC1AA;
+    text-align: center;
+    padding: 12px;
+}
