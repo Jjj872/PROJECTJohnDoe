@@ -254,12 +254,36 @@ details p {
     padding-bottom: 70px;
 }
 
+.section4top a , h2 {
+    margin: 0;
+}
+
 .section4 a {
     border: 1px solid;
     color: white;
     padding: 13px;
     text-decoration: none;
 }
+
+.mesprojets {
+    display: flex;
+    gap: 30px;
+}
+
+.section4 img {
+    width: 100%;
+}
+
+
+.projectHomeKey {
+    flex: 1 0 22%;
+}
+
+.cardborder {
+    border: 2px solid white;
+    padding: 15px;
+}
+
 
 /* FOOTER */
 
