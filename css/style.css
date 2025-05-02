@@ -24,7 +24,7 @@ p {
     font-family: Open Sans;
 }
 
-/* HEADER */
+                                                                                /* HEADER */
 
 header {
     display: flex;
@@ -46,6 +46,10 @@ header ul {
     padding-top: 5px;
     list-style-type: none;
 }
+.fa-bars  {
+    display: none;
+}
+
 .li-red {
     color: #E7174A;
 }
@@ -65,16 +69,17 @@ header ul {
     color: #F7FFF2;
     background-color: orange;
     padding: 10px;
+    text-decoration: none;
 }
 
-/* MAIN */
+                                                                                    /* MAIN */
 
 
 main { 
     max-width: 1440px;
 }
 
-/* SECTION 1 */
+                                                                             /* SECTION 1 */
 
 
 .section1 img {
@@ -99,9 +104,9 @@ main {
     line-height: 30px;
 }
 
-/* SECTION 2 */
+                                                                          /* SECTION 2 */
 
-.section2 h1 {
+.section2 h2 {
     text-align: center;
     padding: 15px;
     padding-bottom: 30px;
@@ -120,7 +125,7 @@ main {
     border: solid 1px;
     
 }
-                           /* ARTICLE 1*/
+                                 /* ARTICLE 1*/
 .section2 article {
     display: flex;
     padding: 60px;
@@ -154,7 +159,7 @@ main {
 
 }
 
-                              /* ARTICLE 2 */
+                                     /* ARTICLE 2 */
 .backgroundsection3 {
     background-color: #FF9A16;
     padding-bottom: 20px;
@@ -182,7 +187,7 @@ main {
 }
 
 
-/* SECTION 3 */
+                                                                                /* SECTION 3 */
 
 .section3 h1 {
     padding: 50px 0px;
@@ -241,10 +246,10 @@ details p {
 
 }
 
-/* SECTION 4 */
+                                                                                    /* SECTION 4 */
 
 .section4 {
-    padding-top: 80px;
+    padding: 80px 0 60px 0;
 }
 
 .section4top {
@@ -252,7 +257,17 @@ details p {
     justify-content: space-between;
     width: 100%;
     padding-bottom: 70px;
+    align-items: center;
+    width: 98%;
 }
+
+.section4top > a {
+    transition: all 0.2s ease;
+    &:hover{
+    background-color:red;
+    }
+}
+
 
 .section4top a , h2 {
     margin: 0;
@@ -267,7 +282,6 @@ details p {
 
 .mesprojets {
     display: flex;
-    gap: 30px;
 }
 
 .section4 img {
@@ -282,10 +296,31 @@ details p {
 .cardborder {
     border: 2px solid white;
     padding: 15px;
+    margin: 30px;
 }
 
+.cardborder img {
+    padding: 15px 0 0 0;
+    height: 239px;
+}
 
-/* FOOTER */
+.cardborder h3 {
+    padding: 15px 0;
+}
+
+.projetHomeKey a {
+    margin: 60px;
+}
+
+a {
+    transition: all 0.2s ease;
+    &:hover{
+    background-color:red;
+    
+    }
+}
+
+                                                                                /* FOOTER */
 
 footer {
     background-color:#2CC1AA;
@@ -296,3 +331,6 @@ footer p {
     text-align: center;
     padding: 12px;
 }
+
+
+                                                                                 /* MEDIA QUERY */ 
