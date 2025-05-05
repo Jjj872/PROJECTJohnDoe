@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Shrikhand&display=swap');
+
+* {
+    background-color: #011826;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p , h1 , h2, h3{
+    color: #F7FFF2;
+    font-family: 'Raleway';
+}
+
+h2 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Open Sans;
+}
+
+
+
+
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: auto;
+    padding: 15px;
+}
+header img {
+    width: 180px;
+    padding-top: 5px;
+}
+header a {
+    text-decoration: none;
+}
+header ul {
+    display: flex;
+    gap: 35px;
+    padding-top: 5px;
+    list-style-type: none;
+}
+.fa-bars::before  {
+    display: none;
+}
+
+.li-red {
+    color: #E7174A;
+}
+.li-orange {
+    color: #FF9A16;
+}
+.li-contact  {
+    color: #F7FFF2;
+    background-color: orange;
+    padding: 10px; 
+}
+.li-contact {
+    transition: all 0.2s ease;
+    &:hover{
+    background-color:red;
+    }
+}
+.contactezmoi {
+    position: absolute;
+    margin-top: 20px;
+    color: #F7FFF2;
+    background-color: orange;
+    padding: 10px;
+    text-decoration: none;
+}
+
+                                                                             /* MAIN */
+
+
+                  /* SECTION 1 */
+
+
+.redband {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding-top: 170px;
+    padding-bottom: 170px;
+    background-color: #E7174A;
+}
+
+.redband p, .redband h1 {
+    background-color: #E7174A;
+}
+
+/* SECTION 2 */ 
+
+.descriptionformation {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1440px;
+    gap: 50px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.descriptionformation > article {
+    margin: auto;
+}
+
+.descriptionformation > img {
+    width: 100%;
+}
+
+.descriptionformation h2 {
+    padding-bottom: 15px;
+}
+
+.descriptionformation p {
+    padding-top: 15px;
+}
+
+
+/* SECTION 3 */
+
+.section3 {
+    margin: auto;
+    max-width: 1440px;
+    padding-bottom: 120px;
+}
+
+.section3 h1 {
+    padding: 50px 0px;
+    text-align: center;
+}
+
+details {
+    color: #FF9A16;
+    width: 95%;
+    padding: 15px;
+}
+
+details > summary {
+    padding: 10px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+details p {
+    background-color: white;
+    color: black;
+    padding: 5px 15px;
+}
+
+.section3 ul , li {
+    color: black;
+    background-color: white;
+}
+
+.skills1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.skills-ul {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.skillflex {
+    display: flex;
+    overflow: hidden;
+}
+
+.skills1 , .skills2 {
+    flex: 1 0 28%;
+}
+
+.summarySkills  {
+    border-bottom: 2px solid red;
+    transition: all 0.2s ease;
+    &:hover{
+        color:red;
+    }
+
+}
+
+
+
+                                                                                  /* SECTION 4 */ 
+
+
+
+.section4 {
+    max-width: 1440px;
+    margin: auto;
+}
+
+ .section4top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 70px;
+    align-items: center;
+}
+.sectiontop h2 {
+    margin: 0;
+}
+.section4 a {
+    border: 1px solid;
+    color: white;
+    padding: 13px;
+    text-decoration: none;
+}
+.mesprojets {
+    padding-bottom: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.section4 img {
+    width: 100%;
+}
+.projectHomeKey {
+    flex: 1 0 22%;
+}
+.cardborder {
+    border: 2px solid white;
+    padding: 15px;
+    margin: 0px 20px;
+    margin-bottom: 30px;
+}
+.cardborder img {
+    padding: 15px 0 0 0;
+    height: 239px;
+    object-fit: cover;
+}
+.cardborder h3 {
+    padding: 15px 0;
+}
+.projetHomeKey a {
+    margin: 60px;
+}
+main a, .li-contact {
+    transition: all 0.2s ease;
+    &:hover{
+    background-color:red;
+    
+    }
+}
+#plusdeprojets {
+    margin: auto;
+    display: flex;
+    width: fit-content;
+    margin-bottom: 30px;
+}
+
+/* FOOTER */ 
+
+footer {
+    background-color:#2CC1AA;
+}
+
+footer p {
+    background-color:#2CC1AA;
+    text-align: center;
+    padding: 12px;
+}
+                                                    /* MEDIA QUERIES */ 
+
+
+
+@media (min-width: 768px) and (max-width: 1150px)  {
+
+    .fa-bars::before{
+        display: block;
+        color: white;
+    }
+
+    header li , header ul {
+        display: none;
+    }
+
+    header{
+        align-items: center;
+    }
+
+    .descriptionformation {
+        padding: 20px 15px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 120px;
+    }
+
+    .descriptionformation > article {
+        text-align: left;
+        line-height: 1.6;
+    }
+
+    details > summary {
+        padding: 15px;
+        width: 90%;
+    }
+
+    .mesprojets {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        gap: 20px 0px;
+    }
+
+    #cardgridlarge {
+        grid-column: 1 / 3;
+    }
+
+    .cardborder {
+        margin: 0px 10px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .fa-bars::before{
+        display: block;
+        color: white;
+    }
+
+    header li , header ul {
+        display: none;
+    }
+    header{
+        align-items: center;
+    }
+    .redband{
+        text-align: center;
+    }
+    .redband h1 {
+        font-size: 27px;
+    }
+    .descriptionformation {
+        padding: 20px 15px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .descriptionformation > article {
+        text-align: left;
+        line-height: 1.6;
+    }
+    .skillflex {
+        flex-direction: column;
+    }
+    details{
+        width: 92%;
+    }
+    .mesprojets {
+        gap: 60px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 90px;
+    }
+    .cardborder img {
+        height: auto;
+    }
+
+}

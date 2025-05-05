@@ -46,7 +46,7 @@ header ul {
     padding-top: 5px;
     list-style-type: none;
 }
-.fa-bars  {
+.fa-bars::before  {
     display: none;
 }
 
@@ -231,6 +231,7 @@ details p {
 
 .skillflex {
     display: flex;
+    overflow: hidden;
 }
 
 .skills1 , .skills2 {
@@ -341,7 +342,7 @@ footer p {
     * {
         margin: 0;
     }
-    .fa-bars {
+    .fa-bars::before {
         display: block;
         color: white;
     }
@@ -354,6 +355,7 @@ footer p {
         display: flex ;
         justify-content: space-between;
         align-items: center;
+        margin: 0;
     }
 
     .section1 {
@@ -448,7 +450,9 @@ footer p {
 
 @media (max-width: 768px) {
 
-    .fa-bars {
+    
+
+    .fa-bars::before {
         display: block;
         color: white;
     }
@@ -463,6 +467,14 @@ footer p {
         align-items: center;
         padding: 5px;
         padding-bottom: 100px;
+    }
+
+    header a {
+        margin: 0;
+    }
+
+    header nav {
+        margin: 0;
     }
 
     h1 {
