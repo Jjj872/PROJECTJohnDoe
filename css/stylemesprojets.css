@@ -168,3 +168,15 @@ main a, .li-contact {
 .section4 {
     padding: 70px 0;
 }
+
+/* FOOTER */ 
+
+footer {
+    background-color:#2CC1AA;
+}
+
+footer p {
+    background-color:#2CC1AA;
+    text-align: center;
+    padding: 12px;
+}
