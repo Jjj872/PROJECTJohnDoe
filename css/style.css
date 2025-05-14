@@ -41,6 +41,13 @@ header a {
     text-decoration: none;
 }
 header ul {
+    display: none;
+}
+.menu-toggle {
+    background-color: #FF9A16;
+}
+
+.active {
     display: flex;
     gap: 35px;
     padding-top: 5px;
@@ -75,75 +82,70 @@ header ul {
 
                                                                     /* MODAL NAV TEST */ 
 
-#modal {
+
+.modal {
     position: fixed;
-    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
     top: 0;
     left: 0;
-    height: 100%;
     width: 100%;
-    background-color: rgba(0,0,0,.5);
-    display: flex;
-    justify-content: center;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+} 
+
+.modal_wrapper {
+    max-width: 400px;
     align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    
 }
-.modal__window h2 {
-    padding-bottom: 35px;
-}
-.modal__window {
-    position: relative;
-    background-color: white;
-    padding: 4em 2em;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    background-color: #F6FEFE;
-}
-.modal__close {
-    position: absolute;
-    background-color: #F6FEFE;
-    top: -19px;
-    right: 0;
+
+.js-modal-close {
+    width: 20px;
+    height: 20px;
     color: #011826;
-    padding: 3px;
+    background-color: white;
+    border: none;
+    position: relative;
+    left: 130px;
+    cursor: pointer;
+    font-size: 20px;
+    bottom: 20px;
 }
-#modal:not(:target) {
-    visibility: hidden;
-    opacity: 0;
-}
-#modal h2 , #modal p {
+#modal1 h2 , #modal1 p {
     background-color: #F6FEFE;
     color: #011826;
     margin: 0;
 }
-.modal__window a {
-    text-decoration: none;
-    background-color: #F6FEFE;
-}
-.modal__window p {
-    padding-bottom: 5px;
-    margin-top: 15px;
-}
-.modal__window input {
+
+
+#modal1 input {
     padding: 5px;
     background-color: white;
     margin-bottom: 15px;
     margin-top: 5px;
     margin-right: 0;
     margin-left: 0;
+    width: 90%;
 }
-.modal__window textarea {
+
+#modal1 textarea {
     margin-bottom: 15px;
     padding: 5px;
     background-color: white;
     margin: 0;
     resize: none;
     height: 150px;
+    width: 90%;
 }
-.modal__window {
-    display: flex;
-    flex-direction: column;
-}
-#Envoyezlademande {
+#Envoyezlademande{
     background-color: #011826;
     padding: 10px;
     text-decoration: none;
@@ -151,6 +153,9 @@ header ul {
     margin: 0;
     margin-top: 15px;
 }
+
+
+
 
                                                                                     /* MAIN */
 

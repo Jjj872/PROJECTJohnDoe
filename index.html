@@ -14,21 +14,25 @@
             <p>Développeur Web et Web Mobile</p>
         </a>
         <nav>
+            
             <a href=""><i class="fa-solid fa-bars"></i></a>
-            <ul>                                                                       
+            <button class="menu-toggle">&#9776</button>
+            <ul class="nav-links">                                                                       
                 <li class="tracking-in-expand-fwd-bottom1"><a class="li-red" href="#">Accueil</a></li>
                 <li class="tracking-in-expand-fwd-bottom2"><a class="li-orange" href="http://127.0.0.1:5500/index.html">Qui suis-je ?</a></li>
                 <li class="tracking-in-expand-fwd-bottom3"><a class="li-orange" href="http://127.0.0.1:5500/formation.html">Ma formation</a></li>
                 <li class="tracking-in-expand-fwd-bottom4"><a class="li-orange" href="#">Mes compétences</a></li>
                 <li class="tracking-in-expand-fwd-bottom5"><a class="li-orange" href="http://127.0.0.1:5500/mesprojets.html">Mes projets</a></li>
-                <li class="tracking-in-expand-fwd-bottom6"><a class="li-contact" href="#modal">Contactez-moi</a></li>
+                <li class="tracking-in-expand-fwd-bottom6"><a class="li-contact js-modal" href="#modal1">Contactez-moi</a></li>
             </ul>
         </nav>
 
                                                                         <!-- MODAL TEST NAV -->
-        <div id="modal">
-            <div class="modal__window">
-                <a class="modal__close" href="#">X</a>
+
+                                                                        
+        <div id="modal1" class="modal" aria-hidden="true" style="display: none;">
+            <div class="modal_wrapper js-modal-stop">
+                <button class="js-modal-close">X</button>
                 <h2>Me contacter</h2>
                 <p>Votre nom :</p>
                 <input type="text" placeholder="Votre nom"> 
@@ -242,6 +246,7 @@
             </div>
 
         </section>
+        <script src="/ressources projet/script.js"></script>
         
 
 
